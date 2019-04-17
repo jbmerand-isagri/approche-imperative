@@ -25,11 +25,16 @@ public class AffichagePartiel {
 		}
 		// affichage des valeurs pour les index pairs
 		System.out.println("ENTIERS POUR LES INDEX PAIRS :");
-		for (int i = 2; i < array.length; i = i + 2) {
+		for (int i = 0; i < array.length; i = i + 2) {
 			System.out.println(array[i]);
-			// modifier pour ajouter un test ?
 		}
-		// affichage des entiers impairs...
+		// affichage des entiers impairs
+		System.out.println("ENTIERS IMPAIRS :");
+		for (int i : array) {
+			if (i % 2 != 0) {
+				System.out.println(i);
+			}
+		}
 	}
 
 }
