@@ -16,6 +16,8 @@ public class FirstLast6 {
 				isMatchingArray = true;
 			}
 		}
+		// displays result
+		System.out.println(isMatchingArray);
 	}
 
 }
